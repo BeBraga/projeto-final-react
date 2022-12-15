@@ -15,7 +15,6 @@ export const Header = styled.header`
                 color: #FFC700;
                 align-items: center;
                 font-size: 1.563rem;
-                font-family: inter;
                 margin-top: 1rem;
                 font-weight: bold;
         }  
@@ -47,7 +46,6 @@ export const Header = styled.header`
                 margin-top: 1rem;
                 margin-left: -52rem;
                 word-spacing: 5rem;
-                font-family: inter;
         }
 
         .profile_space img{
@@ -71,21 +69,18 @@ export const Header = styled.header`
                 margin-left: 10rem;
                 font-size: 2rem;
                 text-decoration: underline;
-                font-family: inter;
         }
 
         h2{
                 margin-top: 3rem;
                 font-size: 1.5rem;
                 margin-left: 3rem;
-                font-family: inter;
         }
 
         h3{
                 margin-top: 3rem;
                 font-size: 1.5rem;
                 margin-left: 1.5rem;
-                font-family: inter;
         }
 `
 
