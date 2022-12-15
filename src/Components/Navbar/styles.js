@@ -22,9 +22,8 @@ export const Header = styled.header`
         button{
                 background-color: #FFC700;
                 width: 4.5rem;
-                height: 2.9rem;
+                height: 2.5rem;
                 margin-top: 1rem;
-                border-radius: 0px;
                 margin-right: 1rem;
         }
 
@@ -39,12 +38,13 @@ export const Header = styled.header`
         .search_space img{
                 width: 2rem;
                 height: 2rem;
+                margin-top: 0.1rem;
         }
 
         .search_space p{
                 color: black;
                 margin-top: 1rem;
-                margin-left: -52rem;
+                margin-left: -51.5rem;
                 word-spacing: 5rem;
         }
 
