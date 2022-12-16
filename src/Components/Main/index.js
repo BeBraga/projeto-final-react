@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {Body} from './styles.js'
 import Apontador from '../../assets/Apontador.jpg'
 import Borracha from '../../assets/Borracha.jpg'
