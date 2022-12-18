@@ -32,7 +32,6 @@ export const Header = styled.header`
                 width: 60rem;
                 height: 2.5rem;
                 margin-top: 1rem;
-                boder-radius: 0px;
         }
         
         .search_space img{
@@ -82,6 +81,75 @@ export const Header = styled.header`
                 font-size: 1.5rem;
                 margin-left: 1.5rem;
         }
+
+        @media screen and (max-width:430px) {
+                height: 10rem;
+
+                img{ 
+                width: 4rem;
+                height: 4rem; 
+                margin-top: 0.5rem;
+                margin-left: 0rem;
+                }
+
+                p{
+                        font-size: 0rem;
+                }
+
+                input{
+                        margin-left: -2rem;
+                        width: 22.5rem;
+                        height: 2rem;
+                        margin-top: 5rem;
+                        margin-right: -2.5rem;
+                }
+
+                button{
+                        background-color: #FFC700;
+                        width: 2.5rem;
+                        height: 2rem;
+                        margin-top: 5rem;
+                }
+
+                .search_space p{
+                        color: black;
+                        font-size: 1rem;
+                        word-spacing: 1rem;
+                        margin-left: -19rem;
+                }
+
+                .search_space img{
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        margin-top: 0.1rem;
+                }
+
+                .profile_space p{
+                        display: none;
+                }
+
+                .profile_space img{
+                        width: 2.5rem;
+                        height: 2.5rem;
+                        margin: 1.3rem 0rem 0rem -14rem;
+                }
+
+                h1{
+                        margin: -2.4rem 0rem 0rem -11rem;
+                        font-size: 1.5rem;
+                        text-decoration: underline;
+                }
+
+                h2{
+                        font-size: 1rem;
+                        margin: 2rem 0rem 0rem -9rem;
+                }
+
+                h3{
+                        font-size: 1rem;
+                        margin: 2rem 0rem 0rem 0.5rem;
+
+                }
 `
 
  

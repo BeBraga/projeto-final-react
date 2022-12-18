@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <Header>
             <img src={Logo} alt='logo site'/>
-            <p>Caneta<br></br><span style={{color: '#1C5D98',}}>azul</span>{' '}<br></br>materiais</p>
+            <p>Caneta<br></br><span style={{color: '#1C5D98',}}> azul</span>{' '}<br></br>materiais</p>
             <input type="text"/>
             <section id='search_space' class='search_space'>
                 <button><img src={Lupa} alt='lupa'/></button>
