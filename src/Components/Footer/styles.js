@@ -49,48 +49,48 @@ export const Content = styled.div`
         }
 
         @media screen and (max-width:430px) {
-            height: 6rem;
+            height: 7rem;
 
         p{
             font-size: 1rem;
             font-weight: bold;
-            margin: 1rem 0rem 0rem 5rem;
+            margin: 1.5rem 0rem 0rem 5rem;
             white-space: nowrap;
         }
         
         .img1{
             width: 2.5rem;
             height: 2rem;
-            margin: 3.3rem 0rem 0rem -9.5rem;
+            margin: 3.5rem 0rem 0rem -9.5rem;
         }
 
         .img2{
             width: 2.5rem;
             height: 2.5rem;
-            margin: 2.9rem 0rem 0rem 0.5rem;
+            margin: 3.2rem 0rem 0rem 0.5rem;
         }
 
         .img3{
             width: 3rem;
             height: 3rem;
-            margin: 2.9rem 0rem 0rem 0.2rem;
+            margin: 3.2rem 0rem 0rem 0.2rem;
         }
 
         .img4{
             width: 3.2rem;
             height: 3.2rem;
-            margin: 2.8rem 0rem 0rem -0.3rem;
+            margin: 3.1rem 0rem 0rem -0.3rem;
         }
 
         .img5{
             width: 3.5rem;
             height: 3.5rem;
-            margin: 2.6rem 0rem 0rem -0.5rem;
+            margin: 2.9rem 0rem 0rem -0.5rem;
         }
 
         h1{
             font-size: 1rem;
-            margin: 1.5rem 0rem 0rem 1rem;
+            margin: 2.2rem 0rem 0rem 1rem;
             font-weight: bold;
         }
 `

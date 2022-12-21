@@ -25,35 +25,69 @@ import Mochila_rosa from '../../assets/Mochila_rosa.jpg'
 const Main = () => {
     return (
         <Body>              
-            <section id='materiais' class='materiais'>
-                <p><u>Buscar por</u>: materiais</p>
-                <img src={Apontador} class='img1' alt='Apontador Tilibra'/>
-                <img src={Borracha} class='img2' alt='Borracha Tilibra'/>
-                <img src={Caneta_azul} class='img3' alt='Caneta azul Bic'/>
-                <img src={Caneta_vermelha} class='img4' alt='Caneta vermelha Bic'/>
-                <img src={Ecolapis_de_cor} class='img5' alt='Ecolapis de cor Faber Castell'/>
-                <img src={Ecolapis_grafite} class='img6' alt='Ecolapis grafite Faber Castell'/>
-                <img src={Lapiseira} class='img7' alt='Lapiseira Faber Castell'/>
+            <section class='materiais'>
+                <section class='slides'>
+                    <h1><u>Buscar por</u>: materiais</h1>
+                    <input type="radio" name="radio-btn" id="radio1"></input>
+                    <input type="radio" name="radio-btn" id="radio2"></input>
+                    <input type="radio" name="radio-btn" id="radio3"></input>
+                    <input type="radio" name="radio-btn" id="radio4"></input>
+                    <img src={Apontador} class='slide first' alt='Apontador Tilibra'/>
+                    <img src={Borracha} class='image' alt='Borracha Tilibra'/>
+                    <img src={Caneta_azul} class='image' alt='Caneta azul Bic'/>
+                    <img src={Caneta_vermelha} class='image' alt='Caneta vermelha Bic'/>
+                    <img src={Ecolapis_de_cor} class='image' alt='Ecolapis de cor Fabber Castel'/>
+                    <img src={Ecolapis_grafite} class='image' alt='Lapiseira Faber Castell'/>
+                    <img src={Lapiseira} class='image' alt='Caneta vermelha Bic'/>
+                </section>
+                <div class='manual'>
+                    <label for="radio1" class='botao'></label>
+                    <label for="radio2" class='botao'></label>
+                    <label for="radio3" class='botao'></label>
+                    <label for="radio4" class='botao'></label>
+                </div>
             </section>
-            <section id='cadernos' class='cadernos'>
-                <p><u>Buscar por</u>: cadernos</p>
-                <img src={Caderno_1m} class='img1' alt='Caderno 1 matéria Bic'/>
-                <img src={Caderno_10m} class='img2' alt='Caderno 10 matérias Tilibra'/>
-                <img src={Caderno_anotacoes} class='img3' alt='Caderno de anotações Tilibra'/>
-                <img src={Caderno_u_1m} class='img4' alt='Caderno universitário 1 matéria Tilibra'/>
-                <img src={Caderno_u_10m} class='img5' alt='Caderno universitário 10 matérias Bic'/>
-                <img src={Agenda} class='img6' alt='Agenda Bic'/>
-            </section> 
-            <section id='mochilas' class='mochilas'>
-                <p><u>Buscar por</u>: mochilas</p>
-                <img src={Mochila_anime} class='img1' alt='Mochila anime Faber Castell'/>
-                <img src={Mochila_de_rodinha_b} class='img2' alt='Mochila de rodinha branca Bic'/>
-                <img src={Mochila_de_rodinha_p} class='img3' alt='Mochila de rodinha preta Tilibra'/>
-                <img src={Mochila_de_rodinha_r} class='img4' alt='Mochila de rodinha rosa Bic'/>
-                <img src={Mochila_lateral} class='img5' alt='Mochila lateral Faber Castell'/>
-                <img src={Mochila_preta} class='img6' alt='Mochila preta Tilibra'/>
-                <img src={Mochila_rosa} class='img7' alt='Mochila rosa Tilibra'/>
-            </section>      
+            <section class='cadernos'>
+                <section class='slides'>
+                    <h2><u>Buscar por</u>: cadernos</h2>
+                    <input type="radio" name="radio-btn" id="radio5"></input>
+                    <input type="radio" name="radio-btn" id="radio6"></input>
+                    <input type="radio" name="radio-btn" id="radio7"></input>
+                    <img src={Caderno_1m} class='slide first' alt='Caderno 1 matéria Bic'/>
+                    <img src={Caderno_10m} class='image' alt='Caderno 10 matérias Tilibra'/>
+                    <img src={Caderno_anotacoes} class='image' alt='Caderno de anotações Tilibra'/>
+                    <img src={Caderno_u_1m} class='image' alt='Caderno universitário 1 matéria Tilibra'/>
+                    <img src={Caderno_u_10m} class='image' alt='Caderno universitário 10 matérias Bic'/>
+                    <img src={Agenda} class='image' alt='Agenda Bic'/>
+                </section>
+                <div class='manual'>
+                    <label for="radio5" class='botao'></label>
+                    <label for="radio6" class='botao'></label>
+                    <label for="radio7" class='botao'></label>
+                </div>
+            </section>
+            <section class='mochilas'>
+                <section class='slides'>
+                    <h3><u>Buscar por</u>: mochilas</h3>
+                    <input type="radio" name="radio-btn" id="radio8"></input>
+                    <input type="radio" name="radio-btn" id="radio9"></input>
+                    <input type="radio" name="radio-btn" id="radio10"></input>
+                    <input type="radio" name="radio-btn" id="radio11"></input>
+                    <img src={Mochila_anime} class='slide first' alt='Mochila anime Faber Castell'/>
+                    <img src={Mochila_de_rodinha_b} class='image' alt='Mochila de rodinha branca Bic'/>
+                    <img src={Mochila_de_rodinha_p} class='image' alt='Mochila de rodinha preta Tilibra'/>
+                    <img src={Mochila_de_rodinha_r} class='image' alt='Mochila de rodinha rosa Bic'/>
+                    <img src={Mochila_lateral} class='image' alt='Mochila lateral Faber Castell'/>
+                    <img src={Mochila_preta} class='image' alt='Mochila preta Tilibra'/>
+                    <img src={Mochila_rosa} class='image' alt='Mochila rosa Tilibra'/>
+                </section>
+                <div class='manual'>
+                    <label for="radio8" class='botao'></label>
+                    <label for="radio9" class='botao'></label>
+                    <label for="radio10" class='botao'></label>
+                    <label for="radio11" class='botao'></label>
+                </div>
+            </section>
         </Body>
     )
 }
