@@ -1,18 +1,17 @@
 import {Header} from './styles.js'
 import React from 'react'
-import Logo from '../../assets/Logo.png'
-import Lupa from '../../assets/Lupa.png'
-import Carrinho from '../../assets/Carrinho.png'
+import Logo from '../../../assets/Logo.png'
+import Lupa from '../../../assets/Lupa.png'
+import Carrinho from '../../../assets/Carrinho.png'
 
 const Navbar = () => {
     return (
         <Header>
-            <img src={Logo} alt='logo site'/>
-            <a href='index.html' id='navbar_logo'>Caneta<br></br><span style={{color: '#1C5D98',}}> azul</span>{' '}<br></br>materiais</a>
+            <a href='index.html' id='navbar_logo'><img src={Logo} alt='logo site'/></a>
+            <a href='index.html' id='navbar_text'>Caneta<br></br><span style={{color: '#1C5D98',}}> azul</span>{' '}<br></br>materiais</a>
             <input type="text"/>
             <section id='search_space' class='search_space'>
                 <button><img src={Lupa} alt='lupa'/></button>
-                <h1><u>Todos</u></h1>
                 <h2>Materiais</h2>
                 <h3>Cadernos</h3>
                 <h4>Mochilas</h4>

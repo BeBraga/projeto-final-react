@@ -6,13 +6,13 @@ export const Header = styled.header`
         height: 7.5rem;
         display: flex;
 
-        img{ 
+        #navbar_logo img{ 
                 max-width: 6.938rem;
                 height: 7.5rem; 
                 cursor: pointer;
         }
 
-        a{
+        #navbar_text{
                 color: #FFC700;
                 align-items: center;
                 font-size: 1.563rem;
@@ -45,22 +45,13 @@ export const Header = styled.header`
                 margin-top: 0.1rem;
         }
 
-        .search_space h1{
-                font-size: 1.5rem;
-                color: black;
-                cursor: pointer;
-                position: relative;
-                right: 53rem;
-                bottom: 2rem;
-        }
-
         .search_space h2{
                 font-size: 1.5rem;
                 color: black;
                 cursor: pointer;
                 position: relative;
-                right: 40rem;
-                bottom: 6.7rem;
+                right: 50rem;
+                bottom: 2rem;
         }
 
         .search_space h2:hover{
@@ -72,8 +63,8 @@ export const Header = styled.header`
                 color: black;
                 cursor: pointer;
                 position: relative;
-                right: 25rem;
-                bottom: 10rem;
+                right: 33rem;
+                bottom: 5.2rem;
         }
 
         .search_space h3:hover{
@@ -85,8 +76,8 @@ export const Header = styled.header`
                 color: black;
                 cursor: pointer;
                 position: relative;
-                right: 10rem;
-                bottom: 13.8rem;
+                right: 17rem;
+                bottom: 9rem;
         }
 
         .search_space h4:hover{

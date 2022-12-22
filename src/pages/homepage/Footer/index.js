@@ -1,10 +1,10 @@
 import React from 'react'
 import {Content} from './styles.js'
-import Gmail from '../../assets/Gmail.png'
-import Github from '../../assets/Github.png'
-import Facebook from '../../assets/Facebook.png'
-import Instagram from '../../assets/Instagram.png'
-import Twitter from '../../assets/Twitter.png'
+import Gmail from '../../../assets/Gmail.png'
+import Github from '../../../assets/Github.png'
+import Facebook from '../../../assets/Facebook.png'
+import Instagram from '../../../assets/Instagram.png'
+import Twitter from '../../../assets/Twitter.png'
 
 const Footer = () => {
     return (
