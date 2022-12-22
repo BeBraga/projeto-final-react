@@ -19,11 +19,13 @@ export const Body = styled.div`
             font-size: 1.5rem; 
             font-weight: bold;
             margin-left: 1rem;
+            cursor: pointer;
         }
 
         .materiais .slides img{
                 margin-left: 1rem;
                 margin-right: 0.5rem;
+                cursor: pointer;
         }
 
         .materiais img{
@@ -54,11 +56,13 @@ export const Body = styled.div`
             font-size: 1.5rem; 
             font-weight: bold;
             padding-left: 1rem;
+            cursor: pointer;
         }
 
         .cadernos .slides img{
             margin-left: 1rem;
             margin-right: 0.5rem;
+            cursor: pointer;
         }
 
         .cadernos img{
@@ -89,11 +93,13 @@ export const Body = styled.div`
             font-size: 1.5rem; 
             font-weight: bold;
             padding-left: 1rem;
+            cursor: pointer;
         }
 
         .mochilas .slides img{
             margin-left: 1rem;
             margin-right: 0.5rem;
+            cursor: pointer;
         }
 
         .mochilas img{

@@ -10,36 +10,46 @@ export const Content = styled.div`
             font-size: 1.25rem;
             font-weight: bold;
             margin: 1.5rem 0rem 0rem 2rem;
+            cursor: pointer;
+        }
+
+        p:hover{
+            text-decoration: underline;
         }
 
         .img1{
             width: 3.5rem;
             height: 2.5rem;
             margin: 1rem 0rem 0rem 3rem;
+            cursor: pointer;
         }
 
         .img2{
             width: 3rem;
             height: 3rem;
             margin: 0.7rem 0rem 0rem 1rem;
+            cursor: pointer;
         }
 
         .img3{
             width: 4rem;
             height: 4rem;
             margin: 0.3rem 0rem 0rem 0.6rem;
+            cursor: pointer;
         }
 
         .img4{
             width: 4rem;
             height: 4rem;
             margin: 0.3rem 0rem 0rem 0.1rem;
+            cursor: pointer;
         }
 
         .img5{
             width: 4.5rem;
             height: 4.5rem;
             margin: 0rem 0rem 0rem -0.3rem;
+            cursor: pointer;
         }
 
         h1{
@@ -56,6 +66,10 @@ export const Content = styled.div`
             font-weight: bold;
             margin: 1.5rem 0rem 0rem 5rem;
             white-space: nowrap;
+        }
+
+        p:active{
+            text-decoration: underline;
         }
         
         .img1{
