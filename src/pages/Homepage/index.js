@@ -1,5 +1,5 @@
-import React from 'react'
 import {Content} from './styles.js'
+import { useState } from 'react'
 import Logo from '../../assets/Logo.png'
 import Lupa from '../../assets/Lupa.png'
 import Carrinho from '../../assets/Carrinho.png'
@@ -30,6 +30,7 @@ import Instagram from '../../assets/Instagram.png'
 import Twitter from '../../assets/Twitter.png'
 
 const Homepage = () => {
+    const [number, setNumber] = useState(0)
     return(
         <Content>
             <section class='navbar'>
@@ -45,7 +46,7 @@ const Homepage = () => {
                 <section id='profile_space' class='profile_space'>
                     <img src={Carrinho} alt='carrinho'/>
                     <p>Carrinho</p>
-                    <h1>0</h1>
+                    <h1>{number}</h1>
                 </section>
                 <h1>Entrar</h1>
                 <h2>Criar conta</h2>
@@ -58,13 +59,13 @@ const Homepage = () => {
                         <input type="radio" name="radio-btn" id="radio2"></input>
                         <input type="radio" name="radio-btn" id="radio3"></input>
                         <input type="radio" name="radio-btn" id="radio4"></input>
-                        <img src={Apontador} class='slide first' alt='Apontador Tilibra'/>
-                        <img src={Borracha} class='image' alt='Borracha Tilibra'/>
-                        <img src={Caneta_azul} class='image' alt='Caneta azul Bic'/>
-                        <img src={Caneta_vermelha} class='image' alt='Caneta vermelha Bic'/>
-                        <img src={Ecolapis_de_cor} class='image' alt='Ecolapis de cor Fabber Castel'/>
-                        <img src={Ecolapis_grafite} class='image' alt='Lapiseira Faber Castell'/>
-                        <img src={Lapiseira} class='image' alt='Caneta vermelha Bic'/>
+                        <img onClick={() => setNumber(number + 1)} src={Apontador} class='slide first' alt='Apontador Tilibra'/>
+                        <img onClick={() => setNumber(number + 1)} src={Borracha} class='image' alt='Borracha Tilibra'/>
+                        <img onClick={() => setNumber(number + 1)} src={Caneta_azul} class='image' alt='Caneta azul Bic'/>
+                        <img onClick={() => setNumber(number + 1)} src={Caneta_vermelha} class='image' alt='Caneta vermelha Bic'/>
+                        <img onClick={() => setNumber(number + 1)} src={Ecolapis_de_cor} class='image' alt='Ecolapis de cor Fabber Castel'/>
+                        <img onClick={() => setNumber(number + 1)} src={Ecolapis_grafite} class='image' alt='Lapiseira Faber Castell'/>
+                        <img onClick={() => setNumber(number + 1)} src={Lapiseira} class='image' alt='Caneta vermelha Bic'/>
                     </section>
                     <div class='manual'>
                         <label for="radio1" class='botao'></label>
@@ -79,12 +80,12 @@ const Homepage = () => {
                         <input type="radio" name="radio-btn" id="radio5"></input>
                         <input type="radio" name="radio-btn" id="radio6"></input>
                         <input type="radio" name="radio-btn" id="radio7"></input>
-                        <img src={Caderno_1m} class='slide first' alt='Caderno 1 matéria Bic'/>
-                        <img src={Caderno_10m} class='image' alt='Caderno 10 matérias Tilibra'/>
-                        <img src={Caderno_anotacoes} class='image' alt='Caderno de anotações Tilibra'/>
-                        <img src={Caderno_u_1m} class='image' alt='Caderno universitário 1 matéria Tilibra'/>
-                        <img src={Caderno_u_10m} class='image' alt='Caderno universitário 10 matérias Bic'/>
-                        <img src={Agenda} class='image' alt='Agenda Bic'/>
+                        <img onClick={() => setNumber(number + 1)} src={Caderno_1m} class='slide first' alt='Caderno 1 matéria Bic'/>
+                        <img onClick={() => setNumber(number + 1)} src={Caderno_10m} class='image' alt='Caderno 10 matérias Tilibra'/>
+                        <img onClick={() => setNumber(number + 1)} src={Caderno_anotacoes} class='image' alt='Caderno de anotações Tilibra'/>
+                        <img onClick={() => setNumber(number + 1)} src={Caderno_u_1m} class='image' alt='Caderno universitário 1 matéria Tilibra'/>
+                        <img onClick={() => setNumber(number + 1)} src={Caderno_u_10m} class='image' alt='Caderno universitário 10 matérias Bic'/>
+                        <img onClick={() => setNumber(number + 1)} src={Agenda} class='image' alt='Agenda Bic'/>
                     </section>
                     <div class='manual'>
                         <label for="radio5" class='botao'></label>
@@ -99,13 +100,13 @@ const Homepage = () => {
                         <input type="radio" name="radio-btn" id="radio9"></input>
                         <input type="radio" name="radio-btn" id="radio10"></input>
                         <input type="radio" name="radio-btn" id="radio11"></input>
-                        <img src={Mochila_anime} class='slide first' alt='Mochila anime Faber Castell'/>
-                        <img src={Mochila_de_rodinha_b} class='image' alt='Mochila de rodinha branca Bic'/>
-                        <img src={Mochila_de_rodinha_p} class='image' alt='Mochila de rodinha preta Tilibra'/>
-                        <img src={Mochila_de_rodinha_r} class='image' alt='Mochila de rodinha rosa Bic'/>
-                        <img src={Mochila_lateral} class='image' alt='Mochila lateral Faber Castell'/>
-                        <img src={Mochila_preta} class='image' alt='Mochila preta Tilibra'/>
-                        <img src={Mochila_rosa} class='image' alt='Mochila rosa Tilibra'/>
+                        <img onClick={() => setNumber(number + 1)} src={Mochila_anime} class='slide first' alt='Mochila anime Faber Castell'/>
+                        <img onClick={() => setNumber(number + 1)} src={Mochila_de_rodinha_b} class='image' alt='Mochila de rodinha branca Bic'/>
+                        <img onClick={() => setNumber(number + 1)} src={Mochila_de_rodinha_p} class='image' alt='Mochila de rodinha preta Tilibra'/>
+                        <img onClick={() => setNumber(number + 1)} src={Mochila_de_rodinha_r} class='image' alt='Mochila de rodinha rosa Bic'/>
+                        <img onClick={() => setNumber(number + 1)} src={Mochila_lateral} class='image' alt='Mochila lateral Faber Castell'/>
+                        <img onClick={() => setNumber(number + 1)} src={Mochila_preta} class='image' alt='Mochila preta Tilibra'/>
+                        <img onClick={() => setNumber(number + 1)} src={Mochila_rosa} class='image' alt='Mochila rosa Tilibra'/>
                     </section>
                     <div class='manual'>
                         <label for="radio8" class='botao'></label>
