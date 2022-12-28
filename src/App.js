@@ -1,16 +1,16 @@
 import './global.css'
-import Products from './pages/products_page/index.js'
-import Homepage from './pages/Homepage/index.js'
+import Navbar from './components/Navbar/index.js' 
+import Footer from './components/Footer/index.js'
 import MyRoutes from './routes/index.js'
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
 
   return (
     <BrowserRouter>
+      <Navbar/>
       <MyRoutes/>
-      <Products/>
-      <Homepage/>
+      <Footer/>
     </BrowserRouter>
   )
 }

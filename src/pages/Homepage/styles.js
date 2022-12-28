@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+/*import styled from 'styled-components'
 
 export const Content = styled.div`
 
@@ -728,4 +728,4 @@ export const Content = styled.div`
         margin: 2.2rem 0rem 0rem 1rem;
         font-weight: bold;
     }
-`   
+`   */

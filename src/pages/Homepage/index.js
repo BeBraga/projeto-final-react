@@ -1,4 +1,4 @@
-import {Content} from './styles.js'
+/*import {Content} from './styles.js'
 import { useState } from 'react'
 import Logo from '../../assets/Logo.png'
 import Lupa from '../../assets/Lupa.png'
@@ -127,7 +127,6 @@ const Homepage = () => {
             </section>
         </Content>
     )
-
 }
 
-export default Homepage
+export default Homepage*/
